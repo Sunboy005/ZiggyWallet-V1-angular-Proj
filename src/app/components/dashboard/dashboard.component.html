@@ -1,0 +1,643 @@
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+        <!-- ============================================================== -->
+        <!-- navbar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" height="50px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                        <li class="nav-item">
+                            <div id="custom-search" class="top-search-bar">
+                                <input class="form-control" type="text" placeholder="Search..">
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown notification">
+                            <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i> <span class="indicator"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                                <li>
+                                    <div class="notification-title"> Notification</div>
+                                    <div class="notification-list">
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action active">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="assets/images/avatar-2.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Jeremy Rakestraw</span>accepted your invitation to join the team.
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="assets/images/avatar-3.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">John Abraham </span>is now following you
+                                                        <div class="notification-date">2 days ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="assets/images/avatar-4.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Monaan Pechi</span> is watching your main repository
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="assets/images/avatar-5.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Jessica Caruso</span>accepted your invitation to join the team.
+                                                        <div class="notification-date">2 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-footer"> <a href="#">View all notifications</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown connection">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-fw fa-th"></i> </a>
+                            <ul class="dropdown-menu dropdown-menu-right connection-dropdown">
+                                <li class="connection-list">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/github.png" alt="" > <span>Github</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/dribbble.png" alt="" > <span>Dribbble</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/dropbox.png" alt="" > <span>Dropbox</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/bitbucket.png" alt=""> <span>Bitbucket</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/mail_chimp.png" alt="" ><span>Mail chimp</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="#" class="connection-item"><img src="assets/images/slack.png" alt="" > <span>Slack</span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="conntection-footer"><a href="#">More</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown nav-user">
+                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/avatar-1.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+                            <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                                <div class="nav-user-info">
+                                    <h5 class="mb-0 text-white nav-user-name">John Abraham </h5>
+                                    <span class="status"></span><span class="ml-2">Available</span>
+                                </div>
+                                <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Account</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end navbar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+        <div class="nav-left-sidebar sidebar-light">
+            <div class="menu-list">
+
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                                Menu
+                            </li>
+                            <div class="nav-item ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="dashboard.html">Dashboard</a>
+                                </li>
+                                <hr>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#tansferModal">Send Money</a>  
+                                </li>
+                                <hr>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#topupModal">Top-Up Wallet</a>  
+                                </li>
+                                <hr>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#transactionModal">Transaction History</a>  
+                                </li>
+                                <hr>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+            <!--DashBoard-->
+            <div class="dashboard-wrapper">
+                <div class="dashboard-finance">
+                    <div class="container-fluid dashboard-content">
+                        <!-- ============================================================== -->
+                        <!-- pageheader  -->
+                        <!-- ============================================================== -->
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="page-header">
+                                    <h3 class="mb-2"> </h3>
+                                    <p class="pageheader-text"></p>
+                                    <div class="page-breadcrumb">
+                                        <nav aria-label="breadcrumb">
+                                            <ol class="breadcrumb">
+                                                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
+                                                <li class="breadcrumb-item active" aria-current="page">Finance Dashboard Template</li>
+                                            </ol>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- end pageheader  -->
+                        <!-- ============================================================== -->
+                        <div class="row">
+
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="card text-right">
+                                    <div class="metric-value d-inline-block"  style="margin-right: 100px;">
+                                        <h1><a href="add-wallet.html"  class="text-primary"><i class="text-primary">+</i><img src="assets/images/wallet-icon.svg" class="icon-box-lg"> Add Wallet</a></h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="card">
+                                    <h3 class="card-header center"><img src="assets/images/us.svg" class="icon-circle-small icon-box-xs text-success bg-success-light"> <i class="fas fa-dollar-sign text-primary"></i> Dollar Wallet</h3>
+                                    
+                                    <div class="card-body">
+                                        <div class="metric-value d-inline-block">
+                                            <h1 class="mb-1">$5,790</h1>
+                                        </div>
+                                        <div class="metric-label d-inline-block float-right text-danger font-weight-bold">
+                                            <span class="icon-circle-small icon-box-xs text-danger bg-danger-light"><i class="fa fa-fw fa-arrow-down"></i></span><span class="ml-1">with: $10</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center bg-light p-t-40 p-b-40">
+                                        <h4>Wallet Address</h4>
+                                        <h2>5645-8764-5647-3246</h2>
+                                    </div>
+                                    
+                                    <div class="card-footer text-right bg-white">
+                                        Equivalent: $54,673 || &#8358; 6484
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="card">
+                                    <h3 class="card-header center"><img src="assets/images/gb-eng.svg" class="icon-circle-small icon-box-xs text-success bg-success-light"> <i class="fas fa-pound-sign text-danger"></i> Pound Wallet</h3>
+                                    
+                                    <div class="card-body">
+                                        <div class="metric-value d-inline-block">
+                                            <h1 class="mb-1">&#163;3,065</h1>
+                                        </div>
+                                        <div class="metric-label d-inline-block float-right text-success font-weight-bold">
+                                            <span class="icon-circle-small icon-box-xs text-success bg-success-light"><i class="fa fa-fw fa-arrow-up"></i></span><span class="ml-1">25%</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center bg-light p-t-40 p-b-40">
+                                        <h4>Wallet Address</h4>
+                                        <h2>5645-8764-5647-3246</h2>
+                                    </div>
+                                    <div class="card-footer text-right bg-white">
+                                        Equivalent: $54,673 || &#8358; 6484
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="card">
+                                    <h3 class="card-header center"><img src="assets/images/ng.svg" class="icon-circle-small icon-box-xs text-success bg-success-light"> <b class="text-success">&#8358;</b> Naira Wallet</h3>
+                                     <div class="card-body">
+                                        <div class="metric-value d-inline-block">
+                                            <h1 class="mb-1">&#8358;3,065</h1>
+                                        </div>
+                                        <div class="metric-label d-inline-block float-right text-success font-weight-bold">
+                                            <span class="icon-circle-small icon-box-xs text-success bg-success-light"><i class="fa fa-fw fa-arrow-up"></i></span><span class="ml-1">25%</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center bg-light p-t-40 p-b-40">
+                                        <h4>Wallet Address</h4>
+                                        <h2>5645-8764-5647-3246</h2>
+                                    </div>
+                                    <div class="card-footer text-right bg-white">
+                                        Equivalent: $54,673 || &#163;4539
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- end Wallet year  -->
+                        <!-- ============================================================== -->
+                        <div class="row">
+                            <!-- ============================================================== -->
+                            <!-- ap and ar balance  -->
+                            <!-- ============================================================== -->
+                            <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="card">
+                                    <h5 class="card-header">Last 5 Transactions
+                                    </h5>
+                                    <div class="card-body">
+                                        <div class="card-body">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">Trx ID</th>
+                                                        <th scope="col">Type</th>
+                                                        <th scope="col">Wallet ID</th>
+                                                        <th scope="col">Amount</th>
+                                                        <th scope="col">Date</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>DR566809876543567</td>
+                                                        <td><font class="text-danger">Debit</font></td>
+                                                        <td>6574-6575-6574-2927</td>
+                                                        <td>$300</td>
+                                                        <td>24-11-2021</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>CR566809876543567</td>
+                                                        <td><font class="text-success">Credit</font></td>
+                                                        <td>6574-6575-6574-2927</td>
+                                                        <td>$300</td>
+                                                        <td>24-11-2021</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>DR566809876543567</td>
+                                                        <td><font class="text-danger">Debit</font></td>
+                                                        <td>6574-6575-6574-2927</td>
+                                                        <td>$300</td>
+                                                        <td>24-11-2021</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">4</th>
+                                                        <td>CR566809876543567</td>
+                                                        <td><font class="text-success">Credit</font></td>
+                                                        <td>6574-6575-6574-2927</td>
+                                                        <td>$300</td>
+                                                        <td>24-11-2021</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">5</th>
+                                                        <td>DR566809876543567</td>
+                                                        <td><font class="text-danger">Debit</font></td>
+                                                        <td>6574-6575-6574-2927</td>
+                                                        <td>$300</td>
+                                                        <td>24-11-2021</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer text-center bg-white">
+                                       <a href="transaction.html" class="text-primary">View all trasactions</a> 
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ============================================================== -->
+                            <!-- end ap and ar balance  -->
+                            <!-- ============================================================== -->
+                            <!-- ============================================================== -->
+                            <!-- gross profit  -->
+                            <!-- ============================================================== -->
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="card">
+                                    <h5 class="card-header">Exchange Rate</h5>
+                                    <div class="card-body">
+                                        <!--Currency Converter widget by FreeCurrencyRates.com -->
+
+                                        <div id='gcw_mainFQdUgoYxV' class='gcw_mainFQdUgoYxV'></div>
+                                        <script>
+                                        function reloadFQdUgoYxV(){ var sc = document.getElementById('scFQdUgoYxV');
+                                        if (sc) sc.parentNode.removeChild(sc);
+                                        sc = document.createElement('script');
+                                        sc.type = 'text/javascript';sc.charset = 'UTF-8';
+                                        sc.async = true;sc.id='scFQdUgoYxV';
+                                        sc.src = 'https://freecurrencyrates.com/en/widget-vertical?iso=USD-EUR-GBP-NGN&df=1&p=FQdUgoYxV&v=fits&source=fcr&width=300&width_title=0&firstrowvalue=1&thm=A6C9E2,FCFDFD,4297D7,5C9CCC,FFFFFF,C5DBEC,FCFDFD,2E6E9E,000000&title=Currency%20Converter&tzo=-60';
+                                        var div = document.getElementById('gcw_mainFQdUgoYxV');
+                                        div.parentNode.insertBefore(sc, div);} reloadFQdUgoYxV(); </script>
+                                        <!-- put custom styles here: .gcw_mainFQdUgoYxV{}, .gcw_headerFQdUgoYxV{}, .gcw_ratesFQdUgoYxV{}, .gcw_sourceFQdUgoYxV{} -->
+                                        <!--End of Currency Converter widget by FreeCurrencyRates.com -->
+                                    </div>
+                                    <div class="card-footer bg-white">  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- end profit margin -->
+                        <!-- ============================================================== -->
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- footer -->
+                <!-- ============================================================== -->
+                <div class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>. 
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="text-md-right footer-links d-none d-sm-block">
+                                    <a href="javascript: void(0);">About</a>
+                                    <a href="javascript: void(0);">Support</a>
+                                    <a href="javascript: void(0);">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- end footer -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- end wrapper  -->
+            <!-- ============================================================== -->
+        </div>
+
+        <!-- Send Money Modal  -->
+        <div class="modal fade" id="tansferModal" tabindex="-1" role="dialog" aria-labelledby="transferModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Send Money</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+                        <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+                        <label class="col-sm-6">Select Wallet</label>
+                        <div class="tabs mt-3">
+                            <ul class="pay-nav pay-nav-tabs" id="myTab" role="tablist">
+                                <li class="pay-nav-item" role="presentation"> <a class="nav-link" id="dollar-tab" data-toggle="tab" href="#dollar" role="tab" aria-controls="dollar"><i class="fas fa-dollar-sign text-primary"></i> Wallet</a> </li>
+                                <li class="pay-nav-item" role="presentation"> <a class="nav-link" id="pound-tab" data-toggle="tab" href="#pound" role="tab" aria-controls="pound"><i class="fas fa-pound-sign text-primary"></i> Wallet</a> </li>
+                                <li class="pay-nav-item" role="presentation"> <a class="nav-link" id="naira-tab" data-toggle="tab" href="#naira" role="tab" aria-controls="naira"><b class="text-primary">&#8358; </b>Wallet</a></li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="visa" role="tabpanel" aria-labelledby="visa-tab">
+                                    <div class="mt-4 mx-4">
+                                        <div class="form mt-3">
+                                            <div class="inputbox"> <input type="text" name="walletid" class="form-control" required="required"> <span>Receiver Wallet Address</span> </div>
+                                            <div class="inputbox"> <input type="number" name="amount" min="1" class="form-control" required="required"> <span>Amount</span></div>
+                                            <div class="d-flex flex-row">
+                                                <div class="inputbox"> <input type="number" name="pin" minlength="4" maxlength="4" class="form-control" required="required"> <span>Pin</span> </div>
+                                            </div>
+                                            <div class="px-5 pay"> <button class="btn btn-success btn-block">Send Money</button> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Wallet Topup Modal  -->
+        <div class="modal fade" id="topupModal" tabindex="-1" role="dialog" aria-labelledby="topupModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Top Up</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+                        <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+                        <label class="col-sm-6">Select Wallet</label>
+                        <div class="tabs mt-3">
+                            <ul class="pay-nav pay-nav-tabs" id="myTab" role="tablist">
+                                <li class="pay-nav-item" role="presentation"> <a class="nav-link" id="dollar-tab" data-toggle="tab" href="#dollar" role="tab" aria-controls="dollar"><i class="fas fa-dollar-sign text-primary"></i> Wallet</a> </li>
+                                <li class="pay-nav-item" role="presentation"> <a class="nav-link" id="pound-tab" data-toggle="tab" href="#pound" role="tab" aria-controls="pound"><i class="fas fa-pound-sign text-primary"></i> Wallet</a> </li>
+                                <li class="pay-nav-item" role="presentation"> <a class="nav-link" id="naira-tab" data-toggle="tab" href="#naira" role="tab" aria-controls="naira"><b class="text-primary">&#8358; </b>Wallet</a></li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="visa" role="tabpanel" aria-labelledby="visa-tab">
+                                    <div class="mt-4 mx-4">
+                                        <div class="form mt-3">
+                                            <div class="inputbox"> <input type="number" name="amount" min="1" class="form-control" required="required"> <span>Amount</span></div>
+                                                                    
+                                            <div class="inputbox"> <input type="text" name="card-name" class="form-control" required="required"> <span>Name on Card</span> </div>
+                                            <div class="inputbox"> <input type="text" minlength="13" name="card-no" class="form-control" required="required"> <span>Card Number</span> </div>
+                                            <div class="d-flex flex-row">
+                                                <div class="inputbox"> <input type="number" name="ccv" maxlength="3" class="form-control" required="required"> <span>CCV</span> </div>
+                                                <div class="inputbox"> <input type="number" name="pin" minlength="4" maxlength="4" class="form-control" required="required"> <span>Pin</span> </div>
+                                            </div>
+                                            <div class="px-5 pay"> <button class="btn btn-success btn-block">TopUp Wallet</button> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- TransactionHistory Modal  -->
+        <div class="modal fade" id="transactionModal" tabindex="-1" role="dialog" aria-labelledby="transactionModalLabel" aria-hidden="true">
+            <div class="modal-dialog  modal-lg modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="transactionModalLabel">Transaction History</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+                        <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+                        <div class="table-responsive">
+                            <table id="example" class="table table-striped table-bordered second" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Trx ID</th>
+                                        <th scope="col">Type</th>
+                                        <th scope="col">Wallet ID</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>DR566809876543567</td>
+                                        <td><font class="text-danger">Debit</font></td>
+                                        <td>6574-6575-6574-2927</td>
+                                        <td>$300</td>
+                                        <td>24-11-2021</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>CR566809876543567</td>
+                                        <td><font class="text-success">Credit</font></td>
+                                        <td>6574-6575-6574-2927</td>
+                                        <td>$300</td>
+                                        <td>24-11-2021</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>DR566809876543567</td>
+                                        <td><font class="text-danger">Debit</font></td>
+                                        <td>6574-6575-6574-2927</td>
+                                        <td>$300</td>
+                                        <td>24-11-2021</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>DR566809876543567</td>
+                                        <td><font class="text-danger">Debit</font></td>
+                                        <td>6574-6575-6574-2927</td>
+                                        <td>$300</td>
+                                        <td>24-11-2021</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>CR566809876543567</td>
+                                        <td><font class="text-success">Credit</font></td>
+                                        <td>6574-6575-6574-2927</td>
+                                        <td>$300</td>
+                                        <td>24-11-2021</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>DR566809876543567</td>
+                                        <td><font class="text-danger">Debit</font></td>
+                                        <td>6574-6575-6574-2927</td>
+                                        <td>$300</td>
+                                        <td>24-11-2021</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>DR566809876543567</td>
+                                        <td><font class="text-danger">Debit</font></td>
+                                        <td>6574-6575-6574-2927</td>
+                                        <td>$300</td>
+                                        <td>24-11-2021</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>CR566809876543567</td>
+                                        <td><font class="text-success">Credit</font></td>
+                                        <td>6574-6575-6574-2927</td>
+                                        <td>$300</td>
+                                        <td>24-11-2021</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>DR566809876543567</td>
+                                        <td><font class="text-danger">Debit</font></td>
+                                        <td>6574-6575-6574-2927</td>
+                                        <td>$300</td>
+                                        <td>24-11-2021</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>CR566809876543567</td>
+                                        <td><font class="text-success">Credit</font></td>
+                                        <td>6574-6575-6574-2927</td>
+                                        <td>$300</td>
+                                        <td>24-11-2021</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>DR566809876543567</td>
+                                        <td><font class="text-danger">Debit</font></td>
+                                        <td>6574-6575-6574-2927</td>
+                                        <td>$300</td>
+                                        <td>24-11-2021</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Trx ID</th>
+                                        <th scope="col">Type</th>
+                                        <th scope="col">Wallet ID</th>
+                                        <th scope="col">Amount</th>
+                                        <th scope="col">Date</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                <!-- ============================================================== -->
+        <!-- end main wrapper  -->
+        <!-- ============================================================== -->
+        <!-- jquery 3.3.1  -->
+        <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+        <!-- bootstap bundle js -->
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+        <!-- slimscroll js -->
+        <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+        <!-- dashboard finance js -->
+        <script src="assets/libs/js/dashboard-finance.js"></script>
+        <!-- main js -->
+        <script src="assets/libs/js/main-js.js"></script>
+        <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+        <script src="assets/vendor/datatables/js/dataTables.bootstrap4.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+        <script src="assets/vendor/datatables/js/buttons.bootstrap4.min.js"></script>
+        <script src="assets/vendor/datatables/js/data-table.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script>
+        <script src="https://cdn.datatables.net/rowgroup/1.0.4/js/dataTables.rowGroup.min.js"></script>
+        <script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+        <script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+        <!-- gauge js -->
+        <script src="assets/vendor/gauge/gauge.min.js"></script>
+
